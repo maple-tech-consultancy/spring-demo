@@ -1,0 +1,2 @@
+spring.data.mongodb.uri=mongodb://localhost:27017/Standalone
+#spring.data.mongodb.uri://username:password@host:port/database
