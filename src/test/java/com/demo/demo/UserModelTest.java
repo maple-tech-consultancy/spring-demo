@@ -8,7 +8,7 @@ public class UserModelTest {
     @Test
     void testUser(){
         //Act
-        User newUser = new User("yang", "zhao", "well",18);
+        User newUser = new User("", "yang", "zhao", "well",18);
         UserAddressModel newUser2 = new UserAddressModel("123321", "123 Nl drive");
         //Assert
         assertEquals("yang", newUser.getFirstName());
